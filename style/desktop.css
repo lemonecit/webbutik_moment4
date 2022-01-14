@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px) {
+
+body {
+
+
+background-color:black;
+
+}
+
+H1,H2,H3,H4,H5,H6 {
+
+COLOR:WHITE;
+display: block;
+padding:0;
+margin:0;
+text-align: center;
+
+}
+
+
+
+}
