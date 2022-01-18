@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px) {
 
 body {
-
+text-align: center;
 
 background-color:black;
 
@@ -46,6 +46,11 @@ display: none;
 
 background-color:#FFA500;
 visibility: visible;
+
+}
+
+.desktop .icon {
+display:none;
 
 }
 

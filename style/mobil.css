@@ -17,7 +17,7 @@ color:white;
 }
 
 .kampanj {
-
+text-align:center;
 background-color:white;
 margin:0;
 padding:0;
@@ -28,10 +28,7 @@ height:40px;
 
 .kampanj span {
 position:relative;
-top:10px;
-width:50%;
-margin-left:25%;
-margin-right:25%;
+top:12px;
 }
 
 
@@ -56,7 +53,7 @@ visibility: visible;
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -88,7 +85,7 @@ visibility: visible;
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-      float: right;
+      float: left;
       display: block;
     }
   }
@@ -97,12 +94,12 @@ visibility: visible;
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
-      right: 0;
+      left: 0;
       top: 0;
     }
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: right;
     }
   }
