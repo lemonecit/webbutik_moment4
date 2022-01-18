@@ -21,13 +21,15 @@
         </div>
         <div class="mobilrow">
 
-            <div class="topnav" id="myTopnav">
+            <div class="topnav">
                 
-                <a href="">asdasd</a>
-                <a href="">asasdas</a>
-                <a href="">asasd</a>
-                <a href="">asdas</a>
-                <a href="">asdsadasd</a>
+                <a href=""><img class="logopic" src="bilder/favicon.ico"></a>
+                <div id="myTopnav">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                  </div>
+             
                 
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -38,12 +40,9 @@
                     
                     
                 </div>
-                <div class="toplogo">
-
-                    <a href="index.html"><img class="logopic" src="bilder/favicon.ico" alt=""></a>         
+            
                 </div>
-                </div>
-      
+            </div>
                 <div class="desktop">
                     <a href="index.html"><img src=""></a>
 
@@ -109,14 +108,13 @@
         <footer>
             <h3>footer</h3>
         </footer>
-
         <script>
             function myFunction() {
               var x = document.getElementById("myTopnav");
-              if (x.className === "topnav") {
-                x.className += " responsive";
+              if (x.style.display === "block") {
+                x.style.display = "none";
               } else {
-                x.className = "topnav";
+                x.style.display = "block";
               }
             }
             </script>
