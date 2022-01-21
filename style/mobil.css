@@ -49,18 +49,24 @@ visibility: visible;
 
 
 .mobilrow {
-  max-width: 480px;
+  /* max-width: 480px; */
   margin: auto;
   background-color: #555;
-  /* height: 500px; */
+ height:50px;
   color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+}
+
+.mobilrow .cartIcon {
+
+float:left;
+
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: relative;
+  /* position: relative; */
 }
 
 .topnav #myTopnav {
@@ -80,23 +86,72 @@ visibility: visible;
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 40px;
 }
 
-.topnav a:hover {
+/* .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
+  height:20px;
+} */
 
 .active {
   background-color: #04AA6D;
   color: white;
 }
 
-.logopic {
+.mobilrow .logopic {
 
 width:25px;
 
+}
+
+
+.topSearchInMobile {
+float:left;
+margin:0;
+padding:0;
+height:100%;
+
+
+}
+
+.topSearchInput {
+
+margin:0;
+padding:0;
+/* position:relative;
+bottom:12px; */
+
+
+}
+
+.topSearchBtn {
+
+    margin:0;
+padding:0;
+/* position:relative;
+bottom:12px; */
+}
+
+.fa-shopping-cart {
+color:black;
+background-color:#FFA500;
+padding:10px;
+
+}
+
+.topLogoIcon {
+
+
+float:left;
+
+}
+
+.carticon {
+
+
+    width: 25px;
 }
 
 }
