@@ -1,6 +1,8 @@
 @media only screen and (min-width: 992px) {
 
 body {
+  margin:0px;
+  padding:0px;
 text-align: center;
 
 background-color:black;
@@ -28,6 +30,15 @@ width:100%;
 
 }
 
+
+.kampanj span {
+  position:relative;
+  top:8px;
+  text-transform:uppercase;
+  font-weight:bolder;
+  font-size:1vw;
+  }
+  
 
 #myTopnav {
 
