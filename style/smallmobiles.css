@@ -1,4 +1,4 @@
-@media only screen and (min-width: 100px) and (max-width:350px) {
+@media only screen and (min-width: 0px) and (max-width:350px) {
 
 
 body{
@@ -7,10 +7,38 @@ background-color:white;
 
 }
 
+
+
   .nopublish {
 
 
 display:none;
+
+  }
+
+  main {
+
+    display:none;
+
+
+  }
+
+  nav {
+
+    display:none;
+  }
+
+
+  footer {
+
+
+    display:none;
+  }
+
+  .shortmessage {
+
+
+visibility: visible;
 
   }
     
