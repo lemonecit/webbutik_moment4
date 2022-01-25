@@ -120,7 +120,7 @@ width:35px;
   color: white;
   /* border-radius: 10px; */
   display:grid;
-  grid-template-columns: 40% 30% 30%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: 100%;
   grid-template-areas: "searchicon topicon cart-icon" ;
 }
