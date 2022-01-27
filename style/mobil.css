@@ -18,8 +18,12 @@ padding:0px;
 
 .shopBtn {
 
-background-color:coral;
-color:white;
+    width: 200px;
+    background-color: coral;
+    color: white;
+    display: block;
+    margin: 0 auto;
+
 
 
 }
@@ -150,6 +154,21 @@ padding:0;
 /* position:relative;
 bottom:12px; */
 
+
+}
+
+
+main {
+
+
+    text-align: center;
+}
+
+.productsInStartPage img {
+
+
+width:200px;
+height:290px;
 
 }
 
